@@ -11,7 +11,7 @@ A aplicação é composto por 4 serviços:<p>
     &emsp;&emsp;-	O servidor assina um tópico MQTT para receber e manter um histórico dos dados coletados pelos sensores no DBServer.<p>
     &emsp;&emsp;-	O servidor disponibiliza uma api que retorna os dados armazenados no DBServer.<p>
    &emsp;2.	DBServer:<p>
-    &emsp;&emsp;-	Servidor MySQL responsável por armazenar os dados dos sensores.<p>
+    &emsp;&emsp;-	Servidor Mongodb responsável por armazenar os dados dos sensores.<p>
     &emsp;&emsp;-	O servidor possui um banco de dados "projeto" contendo uma tabela "sensor" com os campos id, date e value<p>
   &emsp;3.	WebSocket:<p>
     &emsp;&emsp;-	Um servidor WebSocket que permite a comunicação bidirecional em tempo real.<p>
